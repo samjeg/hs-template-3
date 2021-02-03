@@ -1,0 +1,51 @@
+html body {
+	font-family: "Open Sans", sans-serif;
+}
+
+
+header {
+	min-width: 99.2vw; /* width taking into account the scroll bar */
+	height: 12vh;
+	top: 0;
+	left: 0;
+	position: fixed; /* header fixed to the top of the page */
+
+	/* use flex box to put items either side of the header */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	/* add a background image behind the logo and main title */
+	background-image: url("davies-designs-studio-jxnKcNXxVXA-unsplash.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+header i {
+	font-size: 40px;
+	color: #ed9121; /* carrot orange */
+	margin-left: 5rem;
+}
+
+header h1 {
+	font-size: 35px;
+	color: #ffff00; /* yellow */ 
+	margin-right: 5rem;
+}
+
+footer {
+	min-width: 99.2vw;
+	height: 12vh;
+	bottom: 0;
+	left: 0;
+    position: fixed;
+    background-color: #5ac904; /* leafy green */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h6 {
+	font-size: 25px;
+	font-weight: 600; 
+}
