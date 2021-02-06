@@ -1,0 +1,53 @@
+html {
+	font-size: 40px;
+}
+
+
+header {
+	top: 0;
+	left: 0;
+	min-width: 99.2vw;
+	height: 15vh;
+	position: fixed;
+
+	/* position logo and main title */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	/* place image behind main title and logo in header */
+	background-image: url("./images/davies-designs-studio-jxnKcNXxVXA-unsplash.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+/* header logo */
+header i {
+	color: #ed9121;
+	font-size: 1.5;
+	margin-left: 3rem;
+}
+
+/* header title */
+header h1 {
+	color: #ffff00;
+	font-family: "Open Sans", Roboto, sans-serif;
+	margin-right: 3rem;
+}
+
+footer {
+	background-color: #3c891a;
+	bottom: 0;
+	left: 0;
+	min-width: 99.2vw;
+	height: 15vh;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer p {
+	color: #000;
+	font: 400 0.6rem "Open Sans", Roboto, sans-serif;
+}

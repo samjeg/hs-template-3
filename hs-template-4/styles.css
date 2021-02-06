@@ -1,0 +1,52 @@
+html {
+    font: 500 45px "Open Sans", Roboto, sans-serif; /* default font */
+    color: #ffff00;  /* yellow */
+}
+
+header {
+	top: 0;
+	left: 0;
+	width: 99.2vw;
+	height: 15vh;
+	position: fixed;
+	background-color: red;
+
+	/* positioning the main title and logo */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	/* giving the header a background image */
+	background-image: url(./images/davies-designs-studio-jxnKcNXxVXA-unsplash.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+/* carrot logo in header */
+header i {
+	color: #ed9121;
+	font-size: 1.2rem;
+	margin-left: 3rem;
+}
+
+/* main title in header */
+header h1 {
+	margin-right: 3rem;
+}
+
+footer {
+	bottom: 0;
+	left: 0;
+	width: 99.2vw;
+	height: 15vh;
+	position: fixed;
+    background-color: #5ca904;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h6 {
+	color: #000;
+	font-size: 0.5rem;
+}

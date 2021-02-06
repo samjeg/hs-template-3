@@ -1,0 +1,49 @@
+html {
+	font-size: 40px; /* default fontsize for rem units */
+	font-family: "Open Sans", Roboto, sans-serif;
+}
+
+header {
+	top: 0;
+	left: 0;
+	min-width: 99.2vw;
+	height: 12vh;
+	position: fixed;
+
+	/* position logo and main title at either side if the header */
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* position background image behind header */
+    background-image: url("./images/davies-designs-studio-jxnKcNXxVXA-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* header logo */
+header i {
+	color: #ed9121; /* carrot orange */
+	font-size: 1.3rem;
+	margin-left: 3rem;
+}
+
+/* header main title */
+header h1 {
+   color: #ffff00;
+   margin-right: 3em;
+   font-family: "Open Sans", Roboto, sans-serif;
+}
+
+footer {
+	background: #5ac904;
+	bottom: 0;
+	left: 0;
+	width: 99.2vw;
+	height: 15vh;
+	font-size: 0.5rem;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
